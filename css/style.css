@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background-color: #153448;
+  font-family: sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.containerWether {
+  max-width: 400px;
+  padding: 30px;
+  background-color: #3c5b6f;
+  align-items: center;
+  text-align: center;
+}
+.containerWether h1 {
+  color: white;
+  margin-bottom: 20px;
+}
+.containerWether input {
+  width: 250px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+.containerWether input:focus {
+  border: none;
+  outline: none;
+}
+.containerWether button {
+  width: 150px;
+  padding: 15px 1px;
+  border: none;
+  border-radius: 5px;
+  background-color: #dfd0bb;
+  margin-top: 30px;
+  color: white;
+  font-size: 16px;
+}
+.containerWether button:hover {
+  background-color: #948979;
+}
+.containerWether img {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 10px;
+  margin-bottom: 0;
+  display: none;
+}
+.containerWether .temp {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  margin: 0 auto 10px;
+}
+.containerWether .temp .degree {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  margin: -30px auto 40px;
+}
+.containerWether .details {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin: 25px auto 25px;
+}
+div#hourly-forecast {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  overflow-x: auto;
+}
+.hourly-item img {
+  display: block;
+  width: 60px;
+  height: 70px;
+}
